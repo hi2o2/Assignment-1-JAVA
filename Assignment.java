@@ -34,20 +34,6 @@ System.out.println("enter the CGPA");
 CGPA[k]=st.nextFloat();
 }
 }
-/*void display()
-                                                                                                   {
-                                                                                                   for(int j=0;j<2;j++)
-                                                                                                   {
-                                                                                                   System.out.println("Name:"+name[j]);
-                                                                                                   System.out.println("Roll No:"+rollno[j]);
-                                                                                                   System.out.println("Phone Number:"+Phone_number[j]);
-                                                                                                   System.out.println("Age:"+age[j]);
-                                                                                                   System.out.println("CGPA:"+CGPA[j]);
-                                                                                                   }
-                                                                                                   }
-*/
-
-
 
 
 void cgpa()
@@ -73,7 +59,7 @@ void phone()
    int c = Phone_number[0];
    for (int j=0;j<2;j++)
   { 
-  if (name[j].toUpperCase().equals("ANU"))
+  if (name[j].toUpperCase().equals("ANU"))//comparing names
   {
     c=Phone_number[j];
    }
@@ -89,8 +75,7 @@ void smallest()
    int e= age[0];
    for (int j=0;j<2;j++)
   { 
-   System.out.println(age[j]+" "+e);
-  if (age[j]<e)
+  if (age[j]<e)//age
   {
     d=rollno[j]; 
     e=age[j];
@@ -98,9 +83,6 @@ void smallest()
 }
 System.out.println("Roll number of the youngest is - "+d);
 }
-
-
-
 
 }
 
@@ -112,7 +94,6 @@ public static void main(String args[])
 {
 student s1=new student();
 s1.read();
-//s1.display();
 s1.cgpa();
 s1.phone();
 s1.smallest();

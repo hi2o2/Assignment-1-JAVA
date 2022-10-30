@@ -19,7 +19,7 @@ int[][] mark=new int[10][10];
 
 void read()
 {
-for(int k=0;k<2;k++)
+for(int k=0;k<10;k++)
 {
 Scanner st =new Scanner(System.in);
 System.out.println("enter the name");
@@ -40,7 +40,7 @@ void cgpa()
 {
    String a= name[0];
    float b= CGPA[0];
-   for (int j=0;j<2;j++)
+   for (int j=0;j<10;j++)
   { 
   if (CGPA[j]>b)//cgpa
   {
@@ -57,7 +57,7 @@ System.out.println("Person with the highest CGPA is - "+a);
 void phone()
 {
    int c = Phone_number[0];
-   for (int j=0;j<2;j++)
+   for (int j=0;j<10;j++)
   { 
   if (name[j].toUpperCase().equals("ANU"))//comparing names
   {
@@ -73,7 +73,7 @@ void smallest()
 {
    int d= rollno[0];
    int e= age[0];
-   for (int j=0;j<2;j++)
+   for (int j=0;j<10;j++)
   { 
   if (age[j]<e)//age
   {

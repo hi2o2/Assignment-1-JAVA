@@ -1,5 +1,5 @@
 //Assignment No 1
-//Create a java program that enters the details of 10 students by creating a class student. ghhhhgh
+//Create a java program that enters the details of 10 students by creating a class student.
 //The details entered are Rollno, Name, Phone number, age and CGPA.
 //Display the name of the student with the highest CGPA.
 // Display the phone number of the student whose name is ‘ANU’. 
@@ -11,10 +11,9 @@ class student
 
 String[] name= new String[10];
 int rollno[]=new int[10];
-int Phone_number[]=new int[15];
+int Phone_number[]=new int[10];
 int age[]=new int[3];
 float CGPA[]=new float[3];
-int[][] mark=new int[10][10];
 
 
 void read()
@@ -64,7 +63,7 @@ void phone()
     c=Phone_number[j];
    }
 }
-System.out.println("Phone number of the person starting with the name ANU is - "+c);
+System.out.println("Phone number of the person with the name ANU is - "+c);
 }
 
 
